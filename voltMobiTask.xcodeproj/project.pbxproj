@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55CF86831C2EA8D300D2FD8F /* voltMobiTaskTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CF86821C2EA8D300D2FD8F /* voltMobiTaskTests.m */; };
+		55CF86C51C2EB7FA00D2FD8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55CF86AE1C2EB7FA00D2FD8F /* Assets.xcassets */; };
+		55CF86C61C2EB7FA00D2FD8F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 55CF86B01C2EB7FA00D2FD8F /* Info.plist */; };
+		55CF86C71C2EB7FA00D2FD8F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CF86BA1C2EB7FA00D2FD8F /* AppDelegate.m */; };
+		55CF86C81C2EB7FA00D2FD8F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CF86BB1C2EB7FA00D2FD8F /* main.m */; };
+		55CF86C91C2EB7FA00D2FD8F /* CheckCurrency.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55CF86C21C2EB7FA00D2FD8F /* CheckCurrency.storyboard */; };
+		55CF86CA1C2EB7FA00D2FD8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55CF86C41C2EB7FA00D2FD8F /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		55CF867F1C2EA8D300D2FD8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55CF865D1C2EA8D200D2FD8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55CF86641C2EA8D200D2FD8F;
+			remoteInfo = voltMobiTask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		55CF86651C2EA8D200D2FD8F /* voltMobiTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = voltMobiTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55CF867E1C2EA8D300D2FD8F /* voltMobiTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = voltMobiTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55CF86821C2EA8D300D2FD8F /* voltMobiTaskTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = voltMobiTaskTests.m; sourceTree = "<group>"; };
+		55CF86841C2EA8D300D2FD8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55CF86AE1C2EB7FA00D2FD8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		55CF86B01C2EB7FA00D2FD8F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55CF86B91C2EB7FA00D2FD8F /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		55CF86BA1C2EB7FA00D2FD8F /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		55CF86BB1C2EB7FA00D2FD8F /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		55CF86C21C2EB7FA00D2FD8F /* CheckCurrency.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CheckCurrency.storyboard; sourceTree = "<group>"; };
+		55CF86C41C2EB7FA00D2FD8F /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55CF86621C2EA8D200D2FD8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55CF867B1C2EA8D300D2FD8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55CF865C1C2EA8D200D2FD8F = {
+			isa = PBXGroup;
+			children = (
+				55CF86AC1C2EB7FA00D2FD8F /* voltMobiTask */,
+				55CF86811C2EA8D300D2FD8F /* voltMobiTaskTests */,
+				55CF86661C2EA8D200D2FD8F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55CF86661C2EA8D200D2FD8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55CF86651C2EA8D200D2FD8F /* voltMobiTask.app */,
+				55CF867E1C2EA8D300D2FD8F /* voltMobiTaskTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55CF86811C2EA8D300D2FD8F /* voltMobiTaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				55CF86821C2EA8D300D2FD8F /* voltMobiTaskTests.m */,
+				55CF86841C2EA8D300D2FD8F /* Info.plist */,
+			);
+			path = voltMobiTaskTests;
+			sourceTree = "<group>";
+		};
+		55CF86AC1C2EB7FA00D2FD8F /* voltMobiTask */ = {
+			isa = PBXGroup;
+			children = (
+				55CF86AD1C2EB7FA00D2FD8F /* resource */,
+				55CF86B21C2EB7FA00D2FD8F /* source */,
+			);
+			path = voltMobiTask;
+			sourceTree = "<group>";
+		};
+		55CF86AD1C2EB7FA00D2FD8F /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				55CF86AE1C2EB7FA00D2FD8F /* Assets.xcassets */,
+				55CF86AF1C2EB7FA00D2FD8F /* images */,
+				55CF86B01C2EB7FA00D2FD8F /* Info.plist */,
+				55CF86B11C2EB7FA00D2FD8F /* Localization */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		55CF86AF1C2EB7FA00D2FD8F /* images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		55CF86B11C2EB7FA00D2FD8F /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		55CF86B21C2EB7FA00D2FD8F /* source */ = {
+			isa = PBXGroup;
+			children = (
+				55CF86B31C2EB7FA00D2FD8F /* backend */,
+				55CF86BE1C2EB7FA00D2FD8F /* frontend */,
+			);
+			path = source;
+			sourceTree = "<group>";
+		};
+		55CF86B31C2EB7FA00D2FD8F /* backend */ = {
+			isa = PBXGroup;
+			children = (
+				55CF86B41C2EB7FA00D2FD8F /* API */,
+				55CF86B81C2EB7FA00D2FD8F /* Common */,
+				55CF86BC1C2EB7FA00D2FD8F /* Models */,
+				55CF86BD1C2EB7FA00D2FD8F /* Services */,
+			);
+			path = backend;
+			sourceTree = "<group>";
+		};
+		55CF86B41C2EB7FA00D2FD8F /* API */ = {
+			isa = PBXGroup;
+			children = (
+				55CF86B51C2EB7FA00D2FD8F /* Mappers */,
+				55CF86B61C2EB7FA00D2FD8F /* ResponseModels */,
+				55CF86B71C2EB7FA00D2FD8F /* Transport */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		55CF86B51C2EB7FA00D2FD8F /* Mappers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mappers;
+			sourceTree = "<group>";
+		};
+		55CF86B61C2EB7FA00D2FD8F /* ResponseModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ResponseModels;
+			sourceTree = "<group>";
+		};
+		55CF86B71C2EB7FA00D2FD8F /* Transport */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Transport;
+			sourceTree = "<group>";
+		};
+		55CF86B81C2EB7FA00D2FD8F /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				55CF86B91C2EB7FA00D2FD8F /* AppDelegate.h */,
+				55CF86BA1C2EB7FA00D2FD8F /* AppDelegate.m */,
+				55CF86BB1C2EB7FA00D2FD8F /* main.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		55CF86BC1C2EB7FA00D2FD8F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		55CF86BD1C2EB7FA00D2FD8F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		55CF86BE1C2EB7FA00D2FD8F /* frontend */ = {
+			isa = PBXGroup;
+			children = (
+				55CF86BF1C2EB7FA00D2FD8F /* Common */,
+				55CF86C01C2EB7FA00D2FD8F /* UserStory */,
+			);
+			path = frontend;
+			sourceTree = "<group>";
+		};
+		55CF86BF1C2EB7FA00D2FD8F /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		55CF86C01C2EB7FA00D2FD8F /* UserStory */ = {
+			isa = PBXGroup;
+			children = (
+				55CF86C11C2EB7FA00D2FD8F /* CheckCurrency */,
+				55CF86C31C2EB7FA00D2FD8F /* LaunchScreen */,
+			);
+			path = UserStory;
+			sourceTree = "<group>";
+		};
+		55CF86C11C2EB7FA00D2FD8F /* CheckCurrency */ = {
+			isa = PBXGroup;
+			children = (
+				55CF86C21C2EB7FA00D2FD8F /* CheckCurrency.storyboard */,
+			);
+			path = CheckCurrency;
+			sourceTree = "<group>";
+		};
+		55CF86C31C2EB7FA00D2FD8F /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				55CF86C41C2EB7FA00D2FD8F /* LaunchScreen.storyboard */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55CF86641C2EA8D200D2FD8F /* voltMobiTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55CF86871C2EA8D300D2FD8F /* Build configuration list for PBXNativeTarget "voltMobiTask" */;
+			buildPhases = (
+				55CF86611C2EA8D200D2FD8F /* Sources */,
+				55CF86621C2EA8D200D2FD8F /* Frameworks */,
+				55CF86631C2EA8D200D2FD8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = voltMobiTask;
+			productName = voltMobiTask;
+			productReference = 55CF86651C2EA8D200D2FD8F /* voltMobiTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		55CF867D1C2EA8D300D2FD8F /* voltMobiTaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55CF868A1C2EA8D300D2FD8F /* Build configuration list for PBXNativeTarget "voltMobiTaskTests" */;
+			buildPhases = (
+				55CF867A1C2EA8D300D2FD8F /* Sources */,
+				55CF867B1C2EA8D300D2FD8F /* Frameworks */,
+				55CF867C1C2EA8D300D2FD8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55CF86801C2EA8D300D2FD8F /* PBXTargetDependency */,
+			);
+			name = voltMobiTaskTests;
+			productName = voltMobiTaskTests;
+			productReference = 55CF867E1C2EA8D300D2FD8F /* voltMobiTaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55CF865D1C2EA8D200D2FD8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = me;
+				TargetAttributes = {
+					55CF86641C2EA8D200D2FD8F = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					55CF867D1C2EA8D300D2FD8F = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 55CF86641C2EA8D200D2FD8F;
+					};
+				};
+			};
+			buildConfigurationList = 55CF86601C2EA8D200D2FD8F /* Build configuration list for PBXProject "voltMobiTask" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55CF865C1C2EA8D200D2FD8F;
+			productRefGroup = 55CF86661C2EA8D200D2FD8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55CF86641C2EA8D200D2FD8F /* voltMobiTask */,
+				55CF867D1C2EA8D300D2FD8F /* voltMobiTaskTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55CF86631C2EA8D200D2FD8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55CF86C61C2EB7FA00D2FD8F /* Info.plist in Resources */,
+				55CF86CA1C2EB7FA00D2FD8F /* LaunchScreen.storyboard in Resources */,
+				55CF86C51C2EB7FA00D2FD8F /* Assets.xcassets in Resources */,
+				55CF86C91C2EB7FA00D2FD8F /* CheckCurrency.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55CF867C1C2EA8D300D2FD8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55CF86611C2EA8D200D2FD8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55CF86C81C2EB7FA00D2FD8F /* main.m in Sources */,
+				55CF86C71C2EB7FA00D2FD8F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55CF867A1C2EA8D300D2FD8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55CF86831C2EA8D300D2FD8F /* voltMobiTaskTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		55CF86801C2EA8D300D2FD8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55CF86641C2EA8D200D2FD8F /* voltMobiTask */;
+			targetProxy = 55CF867F1C2EA8D300D2FD8F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		55CF86851C2EA8D300D2FD8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		55CF86861C2EA8D300D2FD8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55CF86881C2EA8D300D2FD8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = voltMobiTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.voltMobiTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		55CF86891C2EA8D300D2FD8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = voltMobiTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.voltMobiTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		55CF868B1C2EA8D300D2FD8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = voltMobiTaskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.voltMobiTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/voltMobiTask.app/voltMobiTask";
+			};
+			name = Debug;
+		};
+		55CF868C1C2EA8D300D2FD8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = voltMobiTaskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.voltMobiTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/voltMobiTask.app/voltMobiTask";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55CF86601C2EA8D200D2FD8F /* Build configuration list for PBXProject "voltMobiTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55CF86851C2EA8D300D2FD8F /* Debug */,
+				55CF86861C2EA8D300D2FD8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55CF86871C2EA8D300D2FD8F /* Build configuration list for PBXNativeTarget "voltMobiTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55CF86881C2EA8D300D2FD8F /* Debug */,
+				55CF86891C2EA8D300D2FD8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55CF868A1C2EA8D300D2FD8F /* Build configuration list for PBXNativeTarget "voltMobiTaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55CF868B1C2EA8D300D2FD8F /* Debug */,
+				55CF868C1C2EA8D300D2FD8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55CF865D1C2EA8D200D2FD8F /* Project object */;
+}
