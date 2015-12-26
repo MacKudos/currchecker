@@ -14,6 +14,12 @@
 		55CF86C81C2EB7FA00D2FD8F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CF86BB1C2EB7FA00D2FD8F /* main.m */; };
 		55CF86C91C2EB7FA00D2FD8F /* CheckCurrency.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55CF86C21C2EB7FA00D2FD8F /* CheckCurrency.storyboard */; };
 		55CF86CA1C2EB7FA00D2FD8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55CF86C41C2EB7FA00D2FD8F /* LaunchScreen.storyboard */; };
+		55CF86D71C2ECD9D00D2FD8F /* LatoBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 55CF86D11C2ECD9D00D2FD8F /* LatoBold.ttf */; };
+		55CF86D81C2ECD9D00D2FD8F /* LatoBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 55CF86D21C2ECD9D00D2FD8F /* LatoBoldItalic.ttf */; };
+		55CF86D91C2ECD9D00D2FD8F /* LatoItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 55CF86D31C2ECD9D00D2FD8F /* LatoItalic.ttf */; };
+		55CF86DA1C2ECD9D00D2FD8F /* LatoLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 55CF86D41C2ECD9D00D2FD8F /* LatoLight.ttf */; };
+		55CF86DB1C2ECD9D00D2FD8F /* LatoLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 55CF86D51C2ECD9D00D2FD8F /* LatoLightItalic.ttf */; };
+		55CF86DC1C2ECD9D00D2FD8F /* LatoRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 55CF86D61C2ECD9D00D2FD8F /* LatoRegular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +44,12 @@
 		55CF86BB1C2EB7FA00D2FD8F /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		55CF86C21C2EB7FA00D2FD8F /* CheckCurrency.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CheckCurrency.storyboard; sourceTree = "<group>"; };
 		55CF86C41C2EB7FA00D2FD8F /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		55CF86D11C2ECD9D00D2FD8F /* LatoBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = LatoBold.ttf; sourceTree = "<group>"; };
+		55CF86D21C2ECD9D00D2FD8F /* LatoBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = LatoBoldItalic.ttf; sourceTree = "<group>"; };
+		55CF86D31C2ECD9D00D2FD8F /* LatoItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = LatoItalic.ttf; sourceTree = "<group>"; };
+		55CF86D41C2ECD9D00D2FD8F /* LatoLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = LatoLight.ttf; sourceTree = "<group>"; };
+		55CF86D51C2ECD9D00D2FD8F /* LatoLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = LatoLightItalic.ttf; sourceTree = "<group>"; };
+		55CF86D61C2ECD9D00D2FD8F /* LatoRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = LatoRegular.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +109,7 @@
 		55CF86AD1C2EB7FA00D2FD8F /* resource */ = {
 			isa = PBXGroup;
 			children = (
+				55CF86CB1C2ECACD00D2FD8F /* fonts */,
 				55CF86AE1C2EB7FA00D2FD8F /* Assets.xcassets */,
 				55CF86AF1C2EB7FA00D2FD8F /* images */,
 				55CF86B01C2EB7FA00D2FD8F /* Info.plist */,
@@ -122,6 +135,7 @@
 		55CF86B21C2EB7FA00D2FD8F /* source */ = {
 			isa = PBXGroup;
 			children = (
+				55CF86B81C2EB7FA00D2FD8F /* Common */,
 				55CF86B31C2EB7FA00D2FD8F /* backend */,
 				55CF86BE1C2EB7FA00D2FD8F /* frontend */,
 			);
@@ -132,7 +146,6 @@
 			isa = PBXGroup;
 			children = (
 				55CF86B41C2EB7FA00D2FD8F /* API */,
-				55CF86B81C2EB7FA00D2FD8F /* Common */,
 				55CF86BC1C2EB7FA00D2FD8F /* Models */,
 				55CF86BD1C2EB7FA00D2FD8F /* Services */,
 			);
@@ -177,7 +190,8 @@
 				55CF86BA1C2EB7FA00D2FD8F /* AppDelegate.m */,
 				55CF86BB1C2EB7FA00D2FD8F /* main.m */,
 			);
-			path = Common;
+			name = Common;
+			path = backend/Common;
 			sourceTree = "<group>";
 		};
 		55CF86BC1C2EB7FA00D2FD8F /* Models */ = {
@@ -233,6 +247,27 @@
 				55CF86C41C2EB7FA00D2FD8F /* LaunchScreen.storyboard */,
 			);
 			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		55CF86CB1C2ECACD00D2FD8F /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				55CF86D01C2ECD9D00D2FD8F /* Lato */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		55CF86D01C2ECD9D00D2FD8F /* Lato */ = {
+			isa = PBXGroup;
+			children = (
+				55CF86D11C2ECD9D00D2FD8F /* LatoBold.ttf */,
+				55CF86D21C2ECD9D00D2FD8F /* LatoBoldItalic.ttf */,
+				55CF86D31C2ECD9D00D2FD8F /* LatoItalic.ttf */,
+				55CF86D41C2ECD9D00D2FD8F /* LatoLight.ttf */,
+				55CF86D51C2ECD9D00D2FD8F /* LatoLightItalic.ttf */,
+				55CF86D61C2ECD9D00D2FD8F /* LatoRegular.ttf */,
+			);
+			path = Lato;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -316,9 +351,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				55CF86C61C2EB7FA00D2FD8F /* Info.plist in Resources */,
+				55CF86DA1C2ECD9D00D2FD8F /* LatoLight.ttf in Resources */,
 				55CF86CA1C2EB7FA00D2FD8F /* LaunchScreen.storyboard in Resources */,
 				55CF86C51C2EB7FA00D2FD8F /* Assets.xcassets in Resources */,
+				55CF86D71C2ECD9D00D2FD8F /* LatoBold.ttf in Resources */,
+				55CF86D91C2ECD9D00D2FD8F /* LatoItalic.ttf in Resources */,
 				55CF86C91C2EB7FA00D2FD8F /* CheckCurrency.storyboard in Resources */,
+				55CF86DC1C2ECD9D00D2FD8F /* LatoRegular.ttf in Resources */,
+				55CF86DB1C2ECD9D00D2FD8F /* LatoLightItalic.ttf in Resources */,
+				55CF86D81C2ECD9D00D2FD8F /* LatoBoldItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,7 +487,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = voltMobiTask/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/voltMobiTask/resource/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.voltMobiTask;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -457,7 +499,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = voltMobiTask/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/voltMobiTask/resource/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.voltMobiTask;
 				PRODUCT_NAME = "$(TARGET_NAME)";
