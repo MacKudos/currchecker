@@ -1,0 +1,13 @@
+/* 
+  localization.strings
+  voltMobiTask
+
+  Created by Sergey on 28/12/15.
+  Copyright © 2015 me. All rights reserved.
+*/
+
+"ОБНОВЛЕНО В" = "UPDATED AT";
+"процента" = "percent";
+"Со вчерашнего дня валюта выросла на " = "Since yesterday currency grew by ";
+"Со вчерашнего дня валюта упала на " = "Since yesterday currency fell by ";
+"Изменений по курсу нет" = "Currency is stable";
