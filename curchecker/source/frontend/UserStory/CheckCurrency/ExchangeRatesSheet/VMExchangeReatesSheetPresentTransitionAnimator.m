@@ -43,9 +43,9 @@
     [toViewController.view layoutIfNeeded];
     constrain.constant = -(NSInteger) height*0.3;
     
-    [UIView animateKeyframesWithDuration:[self transitionDuration:transitionContext]
-                                   delay:0.1
-                                 options:UIViewKeyframeAnimationOptionCalculationModeDiscrete animations:^{
+    [UIView animateWithDuration:[self transitionDuration:transitionContext]
+                          delay:0.1
+                        options:UIViewAnimationOptionCurveEaseIn animations:^{
                                      
         toViewController.view.alpha = 1;
         [toViewController.view layoutIfNeeded];
