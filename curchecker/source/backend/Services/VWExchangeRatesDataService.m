@@ -148,7 +148,7 @@ static NSString * const VMBAboutViewControllerCompanyName = @"VWExchangeRatesDat
     
     NSDecimalNumber *firstDecimalNumber = [NSDecimalNumber decimalNumberWithDecimal:[firstNumber decimalValue]];
     NSDecimalNumber *secondDecimalNumber = [NSDecimalNumber decimalNumberWithDecimal:[secondNumber decimalValue]];
-    NSDecimalNumber *total = [firstDecimalNumber decimalNumberBySubtracting:secondDecimalNumber];
+    NSDecimalNumber *total = [secondDecimalNumber decimalNumberBySubtracting:firstDecimalNumber];
     total = [total decimalNumberByDividingBy:secondDecimalNumber];
     total = [total decimalNumberByMultiplyingBy:[NSDecimalNumber decimalNumberWithString:@"100"]];
     
