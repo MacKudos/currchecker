@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "VMApplicationCoordinator.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,25 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    [[VMApplicationCoordinator new] setupApplicationCoordinator];
+    
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"CheckCurrency" bundle:[NSBundle mainBundle]];
+    UIViewController *vc = [storyboard instantiateInitialViewController];
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.rootViewController = vc;
+    [self.window makeKeyAndVisible];
+    
+//    for (NSString *name in [UIFont familyNames]) {
+//            NSLog(@"%@ ---- \n", name);
+//        
+//        for (NSString *name2 in [UIFont fontNamesForFamilyName:name]) {
+//            NSLog(@"%@", name2);
+//        }
+//
+//    }
+    
     return YES;
 }
 
