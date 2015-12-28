@@ -10,8 +10,8 @@
 
 @interface VMExchangeRate : NSObject
 @property (assign, nonatomic) NSString *rateID;
-@property (strong, nonatomic) NSString *fristItemLabel;
-@property (strong, nonatomic) NSString *secondItemLabel;
+@property (copy, nonatomic) NSString *fristItemLabel;
+@property (copy, nonatomic) NSString *secondItemLabel;
 @property (strong, nonatomic) NSNumber *dayBeforeValue;
 @property (strong, nonatomic) NSNumber *todayValue;
 @property (strong, nonatomic) NSNumber *daylyRatePercentDiff;
