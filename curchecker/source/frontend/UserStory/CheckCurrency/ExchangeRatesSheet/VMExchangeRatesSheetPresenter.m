@@ -7,12 +7,12 @@
 //
 
 #import "VMExchangeRatesSheetPresenter.h"
-#import "VMExchangeReatesSheetPresentTransitionAnimator.h"
+#import "VMExchangeRatesSheetPresentTransitionAnimator.h"
 #import "VMExchangeReatesSheetDismissTransitionAnimator.h"
 #import "VWExchangeRatesSheetViewController.h"
 
 @interface VMExchangeRatesSheetPresenter () <UIViewControllerTransitioningDelegate>
-@property (strong, nonatomic) VMExchangeReatesSheetPresentTransitionAnimator *presentTranstionAnimator;
+@property (strong, nonatomic) VMExchangeRatesSheetPresentTransitionAnimator *presentTranstionAnimator;
 @property (strong, nonatomic) VMExchangeReatesSheetDismissTransitionAnimator *dismissTranstionAnimator;
 @end
 
@@ -26,7 +26,7 @@
     
     self = [super init];
     if (self) {
-        _presentTranstionAnimator = [VMExchangeReatesSheetPresentTransitionAnimator new];
+        _presentTranstionAnimator = [VMExchangeRatesSheetPresentTransitionAnimator new];
         _dismissTranstionAnimator = [VMExchangeReatesSheetDismissTransitionAnimator new];
     }
     return self;

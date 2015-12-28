@@ -8,5 +8,5 @@
 
 #import <UIKit/UIKit.h>
 
-@interface VMExchangeReatesSheetPresentTransitionAnimator : NSObject <UIViewControllerAnimatedTransitioning>
+@interface VMExchangeRatesSheetPresentTransitionAnimator : NSObject <UIViewControllerAnimatedTransitioning>
 @end

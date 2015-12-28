@@ -6,12 +6,12 @@
 //  Copyright © 2015 me. All rights reserved.
 //
 
-#import "VMExchangeReatesSheetPresentTransitionAnimator.h"
+#import "VMExchangeRatesSheetPresentTransitionAnimator.h"
 
-@implementation VMExchangeReatesSheetPresentTransitionAnimator
+@implementation VMExchangeRatesSheetPresentTransitionAnimator
 
 - (NSTimeInterval)transitionDuration:(id)transitionContext {
-    return 0.3;
+    return 0.5;
 }
 
 - (void)animateTransition:(id<UIViewControllerContextTransitioning>)transitionContext {
@@ -21,7 +21,10 @@
     
     CGFloat height = CGRectGetHeight(containerView.frame);
     
-    toViewController.view.alpha = 0;
+    toViewController.view.alpha = 0.1;
+    toViewController.view.frame = [transitionContext finalFrameForViewController:toViewController];
+    [toViewController.view layoutIfNeeded];
+    
     [containerView addSubview:toViewController.view];
     
     toViewController.view.translatesAutoresizingMaskIntoConstraints = NO;
@@ -44,8 +47,8 @@
     constrain.constant = -(NSInteger) height*0.3;
     
     [UIView animateWithDuration:[self transitionDuration:transitionContext]
-                          delay:0.1
-                        options:UIViewAnimationOptionCurveEaseIn animations:^{
+                          delay:0.2
+                        options:UIViewAnimationOptionTransitionCurlUp animations:^{
                                      
         toViewController.view.alpha = 1;
         [toViewController.view layoutIfNeeded];

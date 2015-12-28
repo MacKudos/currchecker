@@ -45,6 +45,13 @@
 }
 
 
+- (void)viewWillLayoutSubviews {
+    
+    [super viewWillLayoutSubviews];
+    
+    self.view.translatesAutoresizingMaskIntoConstraints = NO;
+}
+
 #pragma mark VMExchangeRateSheetHandlerDelegate
 
 - (void)VMExchangeRateSheetHandlerDidChangeState {

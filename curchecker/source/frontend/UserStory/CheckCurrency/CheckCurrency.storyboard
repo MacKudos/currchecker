@@ -139,9 +139,9 @@
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="58" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="H3Z-aK-ZWB">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="VMExchangeRatesSheetCell" rowHeight="58" id="EsE-UP-1xi" customClass="VMExchangeRatesSheetCell">
+                                    <tableViewCell clipsSubviews="YES" contentMode="redraw" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="VMExchangeRatesSheetCell" rowHeight="58" id="EsE-UP-1xi" customClass="VMExchangeRatesSheetCell">
                                         <rect key="frame" x="0.0" y="28" width="600" height="58"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="EsE-UP-1xi" id="vke-ns-k1x">
@@ -149,14 +149,14 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4a8-Bw-0Kw">
-                                                    <rect key="frame" x="0.0" y="57" width="600" height="0.0"/>
+                                                    <rect key="frame" x="0.0" y="58" width="600" height="0.0"/>
                                                     <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="0.5" id="Eo6-aK-3Kw"/>
                                                     </constraints>
                                                 </view>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mbe-jn-Mua">
-                                                    <rect key="frame" x="216" y="19" width="168" height="21"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mbe-jn-Mua">
+                                                    <rect key="frame" x="216" y="20" width="168" height="20"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="168" id="C2n-k5-kCS"/>
                                                     </constraints>
@@ -166,7 +166,7 @@
                                                 </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstAttribute="bottom" secondItem="4a8-Bw-0Kw" secondAttribute="bottom" constant="1" id="JVj-fZ-9cL"/>
+                                                <constraint firstAttribute="bottom" secondItem="4a8-Bw-0Kw" secondAttribute="bottom" id="JVj-fZ-9cL"/>
                                                 <constraint firstAttribute="trailing" secondItem="4a8-Bw-0Kw" secondAttribute="trailing" id="OtD-eN-ccY"/>
                                                 <constraint firstItem="4a8-Bw-0Kw" firstAttribute="leading" secondItem="vke-ns-k1x" secondAttribute="leading" id="Z4j-hM-U9v"/>
                                             </constraints>
