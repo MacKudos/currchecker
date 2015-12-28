@@ -83,8 +83,8 @@
     numberFormatter.usesGroupingSeparator = YES;
     NSLocale *local =[NSLocale currentLocale];
     numberFormatter.locale = local;
-    [numberFormatter setMaximumFractionDigits:2];
-    [numberFormatter setMinimumFractionDigits:2];
+    [numberFormatter setMaximumFractionDigits:3];
+    [numberFormatter setMinimumFractionDigits:3];
     NSString *formattedNumberString = [numberFormatter stringFromNumber:rate.todayValue];
     self.currentRateValueLabel.text = formattedNumberString;
 }
