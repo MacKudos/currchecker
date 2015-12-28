@@ -409,14 +409,14 @@
 			isa = PBXGroup;
 			children = (
 				55E5B7DB1C30F81A008399A9 /* VMExchangeRateSheetDataSource.h */,
-				55E5B7DC1C30F81A008399A9 /* VMExchangeRateSheetHandler.h */,
-				55E5B7DD1C30F81A008399A9 /* VMExchangeRatesSheetPresenter.h */,
-				55E5B7DE1C30F81A008399A9 /* VMExchangeReatesSheetPresentTransitionAnimator.h */,
-				55E5B7DF1C30F81A008399A9 /* VWExchangeRatesSheetViewController.h */,
 				55E5B7E01C30F81A008399A9 /* VMExchangeRateSheetDataSource.m */,
+				55E5B7DC1C30F81A008399A9 /* VMExchangeRateSheetHandler.h */,
 				55E5B7E11C30F81A008399A9 /* VMExchangeRateSheetHandler.m */,
+				55E5B7DD1C30F81A008399A9 /* VMExchangeRatesSheetPresenter.h */,
 				55E5B7E21C30F81A008399A9 /* VMExchangeRatesSheetPresenter.m */,
+				55E5B7DE1C30F81A008399A9 /* VMExchangeReatesSheetPresentTransitionAnimator.h */,
 				55E5B7E31C30F81A008399A9 /* VMExchangeReatesSheetPresentTransitionAnimator.m */,
+				55E5B7DF1C30F81A008399A9 /* VWExchangeRatesSheetViewController.h */,
 				55E5B7E41C30F81A008399A9 /* VWExchangeRatesSheetViewController.m */,
 				55E5B7931C30F1EA008399A9 /* VMExchangeRatesSheetCell.h */,
 				55E5B7941C30F1EA008399A9 /* VMExchangeRatesSheetCell.m */,
