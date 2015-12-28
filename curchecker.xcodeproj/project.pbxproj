@@ -43,13 +43,13 @@
 		55E5B7C91C30F1EA008399A9 /* VMExchangeRatesSheetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E5B7941C30F1EA008399A9 /* VMExchangeRatesSheetCell.m */; };
 		55E5B7CA1C30F1EA008399A9 /* VMExchangeReatesSheetDismissTransitionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E5B7961C30F1EA008399A9 /* VMExchangeReatesSheetDismissTransitionAnimator.m */; };
 		55E5B7CB1C30F1EA008399A9 /* VMCurrentExchangeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E5B7981C30F1EA008399A9 /* VMCurrentExchangeViewController.m */; };
-		55E5B7CC1C30F1EA008399A9 /* VMExchangeRateSheetDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E5B79A1C30F1EA008399A9 /* VMExchangeRateSheetDataSource.m */; };
-		55E5B7CD1C30F1EA008399A9 /* VMExchangeRateSheetHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E5B79C1C30F1EA008399A9 /* VMExchangeRateSheetHandler.m */; };
-		55E5B7CE1C30F1EA008399A9 /* VMExchangeRatesSheetPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E5B79E1C30F1EA008399A9 /* VMExchangeRatesSheetPresenter.m */; };
-		55E5B7CF1C30F1EA008399A9 /* VMExchangeReatesSheetPresentTransitionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E5B7A01C30F1EA008399A9 /* VMExchangeReatesSheetPresentTransitionAnimator.m */; };
-		55E5B7D01C30F1EA008399A9 /* VWExchangeRatesDataService.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E5B7A21C30F1EA008399A9 /* VWExchangeRatesDataService.m */; };
-		55E5B7D11C30F1EA008399A9 /* VWExchangeRatesSheetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E5B7A41C30F1EA008399A9 /* VWExchangeRatesSheetViewController.m */; };
 		55E5B7D21C30F1EA008399A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55E5B7A61C30F1EA008399A9 /* LaunchScreen.storyboard */; };
+		55E5B7DA1C30F7D2008399A9 /* VWExchangeRatesDataService.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E5B7D91C30F7D2008399A9 /* VWExchangeRatesDataService.m */; };
+		55E5B7E51C30F81A008399A9 /* VMExchangeRateSheetDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E5B7E01C30F81A008399A9 /* VMExchangeRateSheetDataSource.m */; };
+		55E5B7E61C30F81A008399A9 /* VMExchangeRateSheetHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E5B7E11C30F81A008399A9 /* VMExchangeRateSheetHandler.m */; };
+		55E5B7E71C30F81A008399A9 /* VMExchangeRatesSheetPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E5B7E21C30F81A008399A9 /* VMExchangeRatesSheetPresenter.m */; };
+		55E5B7E81C30F81A008399A9 /* VMExchangeReatesSheetPresentTransitionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E5B7E31C30F81A008399A9 /* VMExchangeReatesSheetPresentTransitionAnimator.m */; };
+		55E5B7E91C30F81A008399A9 /* VWExchangeRatesSheetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E5B7E41C30F81A008399A9 /* VWExchangeRatesSheetViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -131,19 +131,19 @@
 		55E5B7961C30F1EA008399A9 /* VMExchangeReatesSheetDismissTransitionAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMExchangeReatesSheetDismissTransitionAnimator.m; sourceTree = "<group>"; };
 		55E5B7971C30F1EA008399A9 /* VMCurrentExchangeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMCurrentExchangeViewController.h; sourceTree = "<group>"; };
 		55E5B7981C30F1EA008399A9 /* VMCurrentExchangeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMCurrentExchangeViewController.m; sourceTree = "<group>"; };
-		55E5B7991C30F1EA008399A9 /* VMExchangeRateSheetDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMExchangeRateSheetDataSource.h; sourceTree = "<group>"; };
-		55E5B79A1C30F1EA008399A9 /* VMExchangeRateSheetDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMExchangeRateSheetDataSource.m; sourceTree = "<group>"; };
-		55E5B79B1C30F1EA008399A9 /* VMExchangeRateSheetHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMExchangeRateSheetHandler.h; sourceTree = "<group>"; };
-		55E5B79C1C30F1EA008399A9 /* VMExchangeRateSheetHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMExchangeRateSheetHandler.m; sourceTree = "<group>"; };
-		55E5B79D1C30F1EA008399A9 /* VMExchangeRatesSheetPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMExchangeRatesSheetPresenter.h; sourceTree = "<group>"; };
-		55E5B79E1C30F1EA008399A9 /* VMExchangeRatesSheetPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMExchangeRatesSheetPresenter.m; sourceTree = "<group>"; };
-		55E5B79F1C30F1EA008399A9 /* VMExchangeReatesSheetPresentTransitionAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMExchangeReatesSheetPresentTransitionAnimator.h; sourceTree = "<group>"; };
-		55E5B7A01C30F1EA008399A9 /* VMExchangeReatesSheetPresentTransitionAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMExchangeReatesSheetPresentTransitionAnimator.m; sourceTree = "<group>"; };
-		55E5B7A11C30F1EA008399A9 /* VWExchangeRatesDataService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VWExchangeRatesDataService.h; sourceTree = "<group>"; };
-		55E5B7A21C30F1EA008399A9 /* VWExchangeRatesDataService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VWExchangeRatesDataService.m; sourceTree = "<group>"; };
-		55E5B7A31C30F1EA008399A9 /* VWExchangeRatesSheetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VWExchangeRatesSheetViewController.h; sourceTree = "<group>"; };
-		55E5B7A41C30F1EA008399A9 /* VWExchangeRatesSheetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VWExchangeRatesSheetViewController.m; sourceTree = "<group>"; };
 		55E5B7A61C30F1EA008399A9 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		55E5B7D81C30F7D2008399A9 /* VWExchangeRatesDataService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VWExchangeRatesDataService.h; sourceTree = "<group>"; };
+		55E5B7D91C30F7D2008399A9 /* VWExchangeRatesDataService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VWExchangeRatesDataService.m; sourceTree = "<group>"; };
+		55E5B7DB1C30F81A008399A9 /* VMExchangeRateSheetDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMExchangeRateSheetDataSource.h; sourceTree = "<group>"; };
+		55E5B7DC1C30F81A008399A9 /* VMExchangeRateSheetHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMExchangeRateSheetHandler.h; sourceTree = "<group>"; };
+		55E5B7DD1C30F81A008399A9 /* VMExchangeRatesSheetPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMExchangeRatesSheetPresenter.h; sourceTree = "<group>"; };
+		55E5B7DE1C30F81A008399A9 /* VMExchangeReatesSheetPresentTransitionAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMExchangeReatesSheetPresentTransitionAnimator.h; sourceTree = "<group>"; };
+		55E5B7DF1C30F81A008399A9 /* VWExchangeRatesSheetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VWExchangeRatesSheetViewController.h; sourceTree = "<group>"; };
+		55E5B7E01C30F81A008399A9 /* VMExchangeRateSheetDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMExchangeRateSheetDataSource.m; sourceTree = "<group>"; };
+		55E5B7E11C30F81A008399A9 /* VMExchangeRateSheetHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMExchangeRateSheetHandler.m; sourceTree = "<group>"; };
+		55E5B7E21C30F81A008399A9 /* VMExchangeRatesSheetPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMExchangeRatesSheetPresenter.m; sourceTree = "<group>"; };
+		55E5B7E31C30F81A008399A9 /* VMExchangeReatesSheetPresentTransitionAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMExchangeReatesSheetPresentTransitionAnimator.m; sourceTree = "<group>"; };
+		55E5B7E41C30F81A008399A9 /* VWExchangeRatesSheetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VWExchangeRatesSheetViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -319,6 +319,8 @@
 		55E5B7671C30F1EA008399A9 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				55E5B7D81C30F7D2008399A9 /* VWExchangeRatesDataService.h */,
+				55E5B7D91C30F7D2008399A9 /* VWExchangeRatesDataService.m */,
 				55E5B7681C30F1EA008399A9 /* VMApplicationCoordinator.h */,
 				55E5B7691C30F1EA008399A9 /* VMApplicationCoordinator.m */,
 				55E5B76A1C30F1EA008399A9 /* VMServiceHolder.h */,
@@ -396,21 +398,9 @@
 			isa = PBXGroup;
 			children = (
 				55E5B7911C30F1EA008399A9 /* CheckCurrency.storyboard */,
-				55E5B7921C30F1EA008399A9 /* ExchangeRatesSheet */,
 				55E5B7971C30F1EA008399A9 /* VMCurrentExchangeViewController.h */,
 				55E5B7981C30F1EA008399A9 /* VMCurrentExchangeViewController.m */,
-				55E5B7991C30F1EA008399A9 /* VMExchangeRateSheetDataSource.h */,
-				55E5B79A1C30F1EA008399A9 /* VMExchangeRateSheetDataSource.m */,
-				55E5B79B1C30F1EA008399A9 /* VMExchangeRateSheetHandler.h */,
-				55E5B79C1C30F1EA008399A9 /* VMExchangeRateSheetHandler.m */,
-				55E5B79D1C30F1EA008399A9 /* VMExchangeRatesSheetPresenter.h */,
-				55E5B79E1C30F1EA008399A9 /* VMExchangeRatesSheetPresenter.m */,
-				55E5B79F1C30F1EA008399A9 /* VMExchangeReatesSheetPresentTransitionAnimator.h */,
-				55E5B7A01C30F1EA008399A9 /* VMExchangeReatesSheetPresentTransitionAnimator.m */,
-				55E5B7A11C30F1EA008399A9 /* VWExchangeRatesDataService.h */,
-				55E5B7A21C30F1EA008399A9 /* VWExchangeRatesDataService.m */,
-				55E5B7A31C30F1EA008399A9 /* VWExchangeRatesSheetViewController.h */,
-				55E5B7A41C30F1EA008399A9 /* VWExchangeRatesSheetViewController.m */,
+				55E5B7921C30F1EA008399A9 /* ExchangeRatesSheet */,
 			);
 			path = CheckCurrency;
 			sourceTree = "<group>";
@@ -418,6 +408,16 @@
 		55E5B7921C30F1EA008399A9 /* ExchangeRatesSheet */ = {
 			isa = PBXGroup;
 			children = (
+				55E5B7DB1C30F81A008399A9 /* VMExchangeRateSheetDataSource.h */,
+				55E5B7DC1C30F81A008399A9 /* VMExchangeRateSheetHandler.h */,
+				55E5B7DD1C30F81A008399A9 /* VMExchangeRatesSheetPresenter.h */,
+				55E5B7DE1C30F81A008399A9 /* VMExchangeReatesSheetPresentTransitionAnimator.h */,
+				55E5B7DF1C30F81A008399A9 /* VWExchangeRatesSheetViewController.h */,
+				55E5B7E01C30F81A008399A9 /* VMExchangeRateSheetDataSource.m */,
+				55E5B7E11C30F81A008399A9 /* VMExchangeRateSheetHandler.m */,
+				55E5B7E21C30F81A008399A9 /* VMExchangeRatesSheetPresenter.m */,
+				55E5B7E31C30F81A008399A9 /* VMExchangeReatesSheetPresentTransitionAnimator.m */,
+				55E5B7E41C30F81A008399A9 /* VWExchangeRatesSheetViewController.m */,
 				55E5B7931C30F1EA008399A9 /* VMExchangeRatesSheetCell.h */,
 				55E5B7941C30F1EA008399A9 /* VMExchangeRatesSheetCell.m */,
 				55E5B7951C30F1EA008399A9 /* VMExchangeReatesSheetDismissTransitionAnimator.h */,
@@ -553,33 +553,33 @@
 			buildActionMask = 2147483647;
 			files = (
 				55E5B7B81C30F1EA008399A9 /* VMApplicationCoordinator.m in Sources */,
-				55E5B7D01C30F1EA008399A9 /* VWExchangeRatesDataService.m in Sources */,
 				55E5B7B61C30F1EA008399A9 /* main.m in Sources */,
 				55E5B7C11C30F1EA008399A9 /* EKObjectModel.m in Sources */,
 				55E5B7BC1C30F1EA008399A9 /* EKManagedObjectMapping.m in Sources */,
 				55E5B7B51C30F1EA008399A9 /* AppDelegate.m in Sources */,
 				55E5B7C91C30F1EA008399A9 /* VMExchangeRatesSheetCell.m in Sources */,
 				55E5B7BB1C30F1EA008399A9 /* EKManagedObjectMapper.m in Sources */,
-				55E5B7CD1C30F1EA008399A9 /* VMExchangeRateSheetHandler.m in Sources */,
-				55E5B7D11C30F1EA008399A9 /* VWExchangeRatesSheetViewController.m in Sources */,
 				55E5B7C61C30F1EA008399A9 /* NSArray+FlattenArray.m in Sources */,
-				55E5B7CC1C30F1EA008399A9 /* VMExchangeRateSheetDataSource.m in Sources */,
 				55E5B7CA1C30F1EA008399A9 /* VMExchangeReatesSheetDismissTransitionAnimator.m in Sources */,
+				55E5B7E91C30F81A008399A9 /* VWExchangeRatesSheetViewController.m in Sources */,
 				55E5B7C21C30F1EA008399A9 /* EKPropertyHelper.m in Sources */,
 				55E5B7B41C30F1EA008399A9 /* VMhttpJSONTransport.m in Sources */,
 				55E5B7BD1C30F1EA008399A9 /* EKManagedObjectModel.m in Sources */,
+				55E5B7E61C30F81A008399A9 /* VMExchangeRateSheetHandler.m in Sources */,
+				55E5B7E81C30F81A008399A9 /* VMExchangeReatesSheetPresentTransitionAnimator.m in Sources */,
 				55E5B7BE1C30F1EA008399A9 /* EKMapper.m in Sources */,
+				55E5B7E71C30F81A008399A9 /* VMExchangeRatesSheetPresenter.m in Sources */,
 				55E5B7B31C30F1EA008399A9 /* VMCurrencyLayerResponse.m in Sources */,
 				55E5B7B21C30F1EA008399A9 /* VMCurrencyLayerResponseMapper.m in Sources */,
-				55E5B7CF1C30F1EA008399A9 /* VMExchangeReatesSheetPresentTransitionAnimator.m in Sources */,
+				55E5B7DA1C30F7D2008399A9 /* VWExchangeRatesDataService.m in Sources */,
 				55E5B7BA1C30F1EA008399A9 /* EKCoreDataImporter.m in Sources */,
 				55E5B7C71C30F1EA008399A9 /* NSDateFormatter+EasyMappingAdditions.m in Sources */,
 				55E5B7C01C30F1EA008399A9 /* EKObjectMapping.m in Sources */,
 				55E5B7B91C30F1EA008399A9 /* VMServiceHolder.m in Sources */,
 				55E5B7C51C30F1EA008399A9 /* EKSerializer.m in Sources */,
+				55E5B7E51C30F81A008399A9 /* VMExchangeRateSheetDataSource.m in Sources */,
 				55E5B7C31C30F1EA008399A9 /* EKPropertyMapping.m in Sources */,
 				55E5B7BF1C30F1EA008399A9 /* EKMappingBlocks.m in Sources */,
-				55E5B7CE1C30F1EA008399A9 /* VMExchangeRatesSheetPresenter.m in Sources */,
 				55E5B7B71C30F1EA008399A9 /* VMExchangeRate.m in Sources */,
 				55E5B7C41C30F1EA008399A9 /* EKRelationshipMapping.m in Sources */,
 				55E5B7CB1C30F1EA008399A9 /* VMCurrentExchangeViewController.m in Sources */,
