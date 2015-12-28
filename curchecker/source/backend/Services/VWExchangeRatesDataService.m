@@ -108,7 +108,7 @@ static NSString * const VMBAboutViewControllerCompanyName = @"VWExchangeRatesDat
             continue;
         }
         rate.todayValue = todayData.quotes[rateName];
-        rate.daylyRatePercentDiff = [self percentageDiffBetweenFirstNumber:todayData.quotes[rateName] secondNumber:beforeData.quotes[rateName]];
+        rate.dailyRatePercentDiff = [self percentageDiffBetweenFirstNumber:todayData.quotes[rateName] secondNumber:beforeData.quotes[rateName]];
         [rates addObject:rate];
     }
     

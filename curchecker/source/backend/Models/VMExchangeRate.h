@@ -14,5 +14,5 @@
 @property (copy, nonatomic) NSString *secondItemLabel;
 @property (strong, nonatomic) NSNumber *dayBeforeValue;
 @property (strong, nonatomic) NSNumber *todayValue;
-@property (strong, nonatomic) NSNumber *daylyRatePercentDiff;
+@property (strong, nonatomic) NSNumber *dailyRatePercentDiff;
 @end
