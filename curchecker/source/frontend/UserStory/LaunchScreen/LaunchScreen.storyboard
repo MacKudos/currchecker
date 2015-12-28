@@ -22,16 +22,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="VoltMobiTask" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ly9-5v-9pm">
-                                <rect key="frame" x="236" y="288" width="129" height="25"/>
-                                <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="CurChecker" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ly9-5v-9pm">
+                                <rect key="frame" x="217" y="287" width="167" height="33"/>
+                                <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="28"/>
                                 <color key="textColor" red="0.92941176470588238" green="0.13725490196078433" blue="0.14901960784313725" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="ly9-5v-9pm" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="C3t-fT-feB"/>
+                            <constraint firstItem="ly9-5v-9pm" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="3.5" id="C3t-fT-feB"/>
                             <constraint firstItem="ly9-5v-9pm" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="iOQ-aW-UBj"/>
                         </constraints>
                     </view>

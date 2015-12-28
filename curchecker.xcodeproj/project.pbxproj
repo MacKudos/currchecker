@@ -243,7 +243,6 @@
 			isa = PBXGroup;
 			children = (
 				55E5B7551C30F1EA008399A9 /* backend */,
-				55E5B76D1C30F1EA008399A9 /* EasyMapping */,
 				55E5B78C1C30F1EA008399A9 /* frontend */,
 				55E5B7A71C30F1EA008399A9 /* thirdParty */,
 			);
@@ -363,7 +362,8 @@
 				55E5B78A1C30F1EA008399A9 /* NSDateFormatter+EasyMappingAdditions.h */,
 				55E5B78B1C30F1EA008399A9 /* NSDateFormatter+EasyMappingAdditions.m */,
 			);
-			path = EasyMapping;
+			name = EasyMapping;
+			path = ../EasyMapping;
 			sourceTree = "<group>";
 		};
 		55E5B78C1C30F1EA008399A9 /* frontend */ = {
@@ -437,6 +437,7 @@
 		55E5B7A71C30F1EA008399A9 /* thirdParty */ = {
 			isa = PBXGroup;
 			children = (
+				55E5B76D1C30F1EA008399A9 /* EasyMapping */,
 			);
 			path = thirdParty;
 			sourceTree = "<group>";
