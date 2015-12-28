@@ -37,6 +37,7 @@
 }
 
 - (void)viewWillAppear:(BOOL)animated {
+    
     [super viewDidAppear:animated];
     [self retrieveData];
 }
@@ -93,7 +94,10 @@
     
     if ([rate.dailyRatePercentDiff integerValue] > 0) {
         
-        self.rateDescription.text = [NSString stringWithFormat:@"%@ %@ %@", NSLocalizedString(@"Со вчерашнего дня валюта выросла на ", @""), rate.dailyRatePercentDiff, NSLocalizedString(@"процента", @"")];
+        self.rateDescription.text = [NSString stringWithFormat:@"%@ %@ %@",
+                                     NSLocalizedString(@"Со вчерашнего дня валюта выросла на ", @""),
+                                     rate.dailyRatePercentDiff,
+                                     NSLocalizedString(@"процента", @"")];
         
         self.rateDescription.textColor = UIColorFromRGB(0x7ED321);
         return;
@@ -101,7 +105,12 @@
     
     if ([rate.dailyRatePercentDiff integerValue] < 0) {
         
-        self.rateDescription.text = [NSString stringWithFormat:@"%@ %@ %@", NSLocalizedString(@"Со вчерашнего дня валюта упала на ", @""), rate.dailyRatePercentDiff, NSLocalizedString(@"процента", @"")];
+        NSInteger absPercent = labs([rate.dailyRatePercentDiff integerValue]);
+        
+        self.rateDescription.text = [NSString stringWithFormat:@"%@ %li %@",
+                                     NSLocalizedString(@"Со вчерашнего дня валюта упала на ", @""),
+                                     absPercent,
+                                     NSLocalizedString(@"процента", @"")];
         
         self.rateDescription.textColor = UIColorFromRGB(0xDE4A39);
         return;
