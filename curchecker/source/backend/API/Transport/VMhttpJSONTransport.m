@@ -68,8 +68,9 @@ const NSString *kVMhttpJSONTransportApiKey = @"7924b1720b5ffc959374148a574f182f"
  103	User requested a non-existent API Function.
  104	User has reached or exceeded his Subscription Plan's monthly API Request Allowance.
  105	The user's current Subscription Plan does not support the requested API Function.
- 106	The user's query did not return any results.
+ 106	The user's query did not return any results. Api blocked in USA In this Case need to Change local to Russian.
  */
+
 + (NSError *)checkCURRENCYLAYERError:(NSDictionary *)response {
     
     NSError *error = nil;
