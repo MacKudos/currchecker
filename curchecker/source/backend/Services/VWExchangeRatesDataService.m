@@ -124,6 +124,7 @@ static NSString * const VMBAboutViewControllerCompanyName = @"VWExchangeRatesDat
 - (NSMutableURLRequest *)buildRequestForTodayDataRequest {
     
     NSString *urlString = [NSString stringWithFormat:@"%@/live?access_key=%@&currencies=USD,RUB,EUR,ANG,AUD&format=1", kVMhttpJSONTransportApiServerBaseUrl, kVMhttpJSONTransportApiKey];
+    urlString = [urlString stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
     NSURL *url = [NSURL URLWithString:urlString];
     NSMutableURLRequest *request = [[NSMutableURLRequest alloc] initWithURL:url cachePolicy:NSURLRequestUseProtocolCachePolicy timeoutInterval:20];
     
@@ -133,6 +134,7 @@ static NSString * const VMBAboutViewControllerCompanyName = @"VWExchangeRatesDat
 - (NSMutableURLRequest *)buildRequestForDayBeforeDataRequest {
     
     NSString *urlString = [NSString stringWithFormat:@"%@/historical?access_key=%@&date=%@&currencies=USD,RUB,EUR,ANG,AUD&format=1", kVMhttpJSONTransportApiServerBaseUrl, kVMhttpJSONTransportApiKey, [self dayBeforeDateStringValue]];
+    urlString = [urlString stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
     NSURL *url = [NSURL URLWithString:urlString];
     NSMutableURLRequest *request = [[NSMutableURLRequest alloc] initWithURL:url cachePolicy:NSURLRequestUseProtocolCachePolicy timeoutInterval:20];
     
